@@ -15,6 +15,6 @@ class doctors extends Model
     ];
     public function specialization()
     {
-        return $this->hasMany('App\speciality');
+        return $this->hasMany('App\Speciality');
     }
 }
